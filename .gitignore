@@ -1,0 +1,20 @@
+# --- Build Artifacts ---
+*.o
+*.out
+workflow_app
+
+# --- Project Specific Outputs ---
+workflow.json
+
+# --- IDE & Editor folders ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Makefile generated (if using other build tools) ---
+.deps/
